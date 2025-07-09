@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Enable Git LFS and pull large files
+
+# Pull LFS files
 git lfs install
 git lfs pull
 
-# Then build your project
+# Install dependencies and build
 npm install
 npm run build
