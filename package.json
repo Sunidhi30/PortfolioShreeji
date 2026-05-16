@@ -1,8 +1,20 @@
 {
-  "name": "Sunidhi Ratra",
-  "private": true,
+  "name": "sunidhi-ratra",
   "version": "0.0.0",
+  "private": true,
+  "description": "This repository contains the open source version of my porfolio website. Do check it out!",
+  "homepage": "https://github.com/Sunidhi30/PortfolioShreeji#readme",
+  "bugs": {
+    "url": "https://github.com/Sunidhi30/PortfolioShreeji/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunidhi30/PortfolioShreeji.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -b && vite build",
@@ -10,7 +22,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-   
     "@react-three/cannon": "^6.6.0",
     "@react-three/drei": "^9.120.4",
     "@react-three/fiber": "^8.17.10",
@@ -38,6 +49,6 @@
     "globals": "^15.9.0",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
-    "vite": "^5.4.1"
+    "vite": "^6.4.2"
   }
 }
